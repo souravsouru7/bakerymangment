@@ -12,7 +12,7 @@ const billRoutes = require('./routes/billRoutes');
 const app = express();
 
 connectDB();
-
+//hiii
 app.use(cors({
   origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
